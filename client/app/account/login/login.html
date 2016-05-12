@@ -1,0 +1,92 @@
+
+    <div id="products" class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 class="section-title">Enter your login details</h1>
+                </div> <!-- /.col-md-12 -->
+            </div> <!-- /.row -->
+            <div class="row">
+                <div id="contact" class="content-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-3">
+
+                            </div> <!-- /.col-md-6 -->
+                            <div class="col-md-8 col-sm-6">
+                                <div class="row contact-form">
+                                    <!-- <form ng-submit="vm.login(form)" novalidate>
+                                        <fieldset class="col-md-12">
+                                            <input placeholder="Enter your email" type="email" name="email" class="form-control" ng-model="vm.user.email" required autofocus="">
+                                        </fieldset>
+                                        <fieldset class="col-md-12">
+                                            <input placeholder="Enter your password" type="password" name="password" class="form-control" ng-model="vm.user.password" required>
+                                        </fieldset>
+                                        <fieldset class="col-md-2">
+
+                                        </fieldset>
+
+                                        <fieldset class="col-md-4">
+                                            <button class="btn btn-inverse btn-lg btn-login" type="submit">
+                                              Login
+                                            </button>
+                                            <a class="btn btn-default btn-lg btn-register" href="/signup">
+                                              Register
+                                            </a>
+                                        </fieldset>
+                                        <fieldset class="col-md-4">
+                                          <div class="form-group has-error">
+                                            <p class="help-block" ng-show="form.email.$error.required && form.password.$error.required && vm.submitted">
+                                               Please enter your email and password.
+                                            </p>
+                                            <p class="help-block" ng-show="form.email.$error.email && vm.submitted">
+                                               Please enter a valid email.
+                                            </p>
+
+                                            <p class="help-block">{{ vm.errors.other }}</p>
+                                          </div>
+                                        </fieldset>
+                                    </form> -->
+                                    <form class="form" name="form" ng-submit="vm.login(form)" novalidate>
+
+                                      <div class="form-group">
+                                        <input placeholder="Email Address" type="email" name="email" class="form-control" ng-model="vm.user.email" required>
+                                      </div>
+
+                                      <div class="form-group">
+                                        <input placeholder="Password" type="password" name="password" class="form-control" ng-model="vm.user.password" required>
+                                      </div>
+
+                                      <div class="form-group has-error">
+                                        <p class="help-block" ng-show="form.email.$error.required && form.password.$error.required && vm.submitted">
+                                           Please enter your email and password.
+                                        </p>
+                                        <p class="help-block" ng-show="form.email.$error.email && vm.submitted">
+                                           Please enter a valid email.
+                                        </p>
+
+                                        <p class="help-block">{{ vm.errors.other }}</p>
+                                      </div>
+
+                                      <div>
+                                        <button class="btn btn-inverse btn-lg btn-login" type="submit">
+                                          Login
+                                        </button>
+                                        <a class="btn btn-default btn-lg btn-register" href="/signup">
+                                          Register
+                                        </a>
+                                      </div>
+
+                                    </form>
+                                </div> <!-- /.contact-form -->
+                            </div> <!-- /.col-md-6 -->
+                        </div> <!-- /.row -->
+                    </div> <!-- /.container -->
+                </div> <!-- /#products -->
+            </div> <!-- /.row -->
+        </div> <!-- /.container -->
+    </div> <!-- /#products -->
+    <br />
+    <br />
+    <br />
+    <br />

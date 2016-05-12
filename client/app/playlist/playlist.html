@@ -1,0 +1,36 @@
+<div id="products" class="content-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h1 class="section-title">Here are your previous playlists</h1>
+                </div> <!-- /.col-md-12 -->
+            </div> <!-- /.row -->
+            <div class="row">
+              <!-- start of repeat-->
+                <div class="col-md-3 col-sm-6" ng-repeat="playlist in playlists">
+                    <div class="product-item">
+                        <div class="item-thumb">
+                            <span class="note"></span>
+                            <div class="overlay">
+                                <div class="overlay-inner">
+                                    <a ng-href="/playlist_detail/{{playlist._id}}" class="view-detail">{{playlist.playlist_name}}</a>
+                                    <a class="btn btn-success" ng-href="/playlist_detail/{{playlist._id}}">check out this playlist</a>
+                                      <br />
+                                      <br />
+                                    <a class="btn btn-danger" confirm="Delete, {{playlist.playlist_name}}?"
+                                        ng-click='deletePlaylist(playlist); '>delete this playlist</a>
+                                </div>
+                            </div> <!-- /.overlay -->
+                                <!-- refactor this as per stack overflow question -->
+                                <span>
+                                    <img ng-src="/images/genre_images/{{playlist.playlist_genre}}.jpg"> <!-- playlist_genre -->
+                                    <!-- href="#add_tracks?selectedgenre={{genre.name}}" -->
+                                </span>
+                        </div> <!-- /.item-thumb -->
+                        <!--<span>{{track.name}} - <em class="price">{{track.artist_name}}</em></span>-->
+                    </div> <!-- /.product-item -->
+                </div> <!-- /.col-md-3 -->
+                <!-- start of repeat-->
+            </div> <!-- /.row -->
+        </div> <!-- /.container -->
+    </div> <!-- /#products -->
