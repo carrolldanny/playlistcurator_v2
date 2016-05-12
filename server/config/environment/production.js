@@ -6,10 +6,10 @@ module.exports = {
 
   // MongoDB connection options
   mongo: {
-    uri: 'mongodb://00833827:ynnadc1@ds011492.mlab.com:11492/heroku_ds241z1d'
+    uri: 'mongodb://00833827:ynnadc1@ds013290.mlab.com:13290/beers'
   },
 
   // Seed database on startup
-  seedDB: false
+  seedDB: true
 
 };
