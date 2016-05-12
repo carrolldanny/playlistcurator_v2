@@ -15,10 +15,6 @@ module.exports = {
 
   // MongoDB connection options
   mongo: {
-    uri:  process.env.MONGODB_URI ||
-          process.env.MONGOHQ_URL ||
-          process.env.OPENSHIFT_MONGODB_DB_URL +
-          process.env.OPENSHIFT_APP_NAME ||
-          'mongodb://localhost/assignment2yeoman'
+    uri:  'mongodb://00833827:ynnadc1@ds011472.mlab.com:11472/heroku_v6dtznbz'
   }
 };
