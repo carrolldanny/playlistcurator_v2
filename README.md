@@ -1,6 +1,6 @@
 # playlistcurator
 
-Name: Danny Carroll
+Name : Danny Carroll
 
 ###Overview.
 Playlist Curator allows the user to create and stream Genre-based lists of music and share them with others. The source of the music is a service called Jamendo. Jamendo is a music website and an open community of independent artists and music lovers. It bills itself as "the world's largest digital service for free music. Jamendo has an API allowing developers to consume their freely available content.
