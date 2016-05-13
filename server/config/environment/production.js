@@ -4,9 +4,9 @@
 // ==================================
 module.exports = {
 
-  // MongoDB connection options
+  // MongoDB connection options - change to mongolab beers for live
   mongo: {
-    uri: 'mongodb://00833827:ynnadc1@ds013290.mlab.com:13290/beers'
+    uri: 'mongodb://localhost/assignment2yeoman-dev'
   },
 
   // Seed database on startup
