@@ -84,10 +84,11 @@ Google URL shortener is used to shorten the URL's before they get shared out on 
 
 ###Web API Endpoints
 
-| Method        | End point     | Usage                               | Returns       |
-| ------------- | ------------- | ----------------------------------  | ------------- |
-| GET           | /api/playlists| Get a list of all user's playlists  | playlists     |
-| Content Cell  | Content Cell  | Content Cell                        | Content Cell  |
+| Method        | End point                             | Usage                               | Returns       |
+| ------------- | -------------                         | ----------------------------------  | ------------- |
+| GET           | /api/playlists                        | Get a list of all user's playlists  | playlists     |
+| GET           | /api/playlists/{playlist_id}          | Get the contents of a playlist      | tracks        |
+| POST          | /api/playlists/{playlist_id}/tracks   | Add a track to a playlist           | -             |
 
 [image1]: /images/promotion/ss1.png
 [image2]: /images/promotion/ss2.png
