@@ -59,13 +59,12 @@ Playing back a list and sharing it on Twitter
 ###Routing.
 
 + / - Login page
-+ /password_reset - Allows user to trigger password reset - email sent to their registered address
++ /signup - Allows a user to create an account to create their own playlists
 + /logout - ends user's playlist creation session
-+ /select_genre - the start of the playlist creation process - pick the style you want
-+ /add_tracks - preview and add some music to your list, as many songs as you like
++ /createplaylist - the start of the playlist creation process - pick the style you want
++ /addtrack/{selectedgenre} - preview and add some music to your list, as many songs as you like
 + /playlists - a list of the playlists you have created so far
-+ /playlist - the particular playlist you have selected to playback/share
-+ /edit_playlist - make changes to a previously created playlist (not complete - ran out of time)
++ /playlist_detail/{playlist_id} - the particular playlist you have selected to playback/share
 
 ###Extra features
 
