@@ -82,6 +82,13 @@ Google URL shortener is used to shorten the URL's before they get shared out on 
 + HTML5 Audio Player - standard feature of HTML5 but few soild for streaming audio files in an instance such as this.
 + Angular-Confirm - A Confirm modal dialog for AngularJS
 
+###Web API Endpoints
+
+| Method        | End point     | Usage         | Returns       |
+| ------------- | ------------- | ------------- | ------------- |
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  | Content Cell  | Content Cell  |
+
 [image1]: /images/promotion/ss1.png
 [image2]: /images/promotion/ss2.png
 [image3]: /images/promotion/ss3.png
