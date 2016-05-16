@@ -88,7 +88,13 @@ Google URL shortener is used to shorten the URL's before they get shared out on 
 | ------------- | -------------                         | ----------------------------------  | ------------- |
 | GET           | /api/playlists                        | Get a list of all user's playlists  | playlists     |
 | GET           | /api/playlists/{playlist_id}          | Get the contents of a playlist      | tracks        |
+| POST          | /api/playlists/                       | Create a playlist                   | playlist      |
 | POST          | /api/playlists/{playlist_id}/tracks   | Add a track to a playlist           | -             |
+| DELETE        | /api/playlists/{playlist_id}          | Delete a playlist                   | -             |
+| DELETE        | /api/playlists/{playlist_id}          | Remove a track from a playlist      | -             |
+| GET           | /api/users/me                         | Login                               | user details  |
+| POST          | /api/users                            | Create a user                       | -             |
+
 
 [image1]: /images/promotion/ss1.png
 [image2]: /images/promotion/ss2.png
