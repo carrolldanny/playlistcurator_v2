@@ -7,7 +7,7 @@ Playlist Curator allows the user to create and stream Genre-based lists of music
 
 www.jamendo.com
 
-Playlist Curator lets the user select the genre of music they wish to based their playlist on. A selection of songs are returned for the user to peruse. These can be previewed and if the user likes the song, they can add it to the list. If the user changes their mind, it can then be removed. If the user has heard enough of the songs that are presented to them, then can load up some more and keep building the list.
+Playlist Curator lets the user select the genre of music they wish to based their playlist on. A selection of songs are returned for the user to peruse. These can be previewed and if the user likes the song, they can add it to the list. If the user changes their mind, it can then be removed. If the user has heard enough of the songs that are presented to them, then can load up some more and keep building the list. Playlists can be deleted at any time by te user that created them.
 
 At any time, the user can visit the lists they have created and enjoy them. They can also share them with their friends on social media so others can enjoy the music.
 
@@ -16,7 +16,7 @@ Because the Jamendo music service is populated only by new, unsigned and unpubli
 
  + Consumes Jamendo music providers data API
  + Streams Jamendo music providers music files
- + Creates playlists in Firebase as music provider's API doesn't have facilitiy to dynamically create a playlist
+ + PlaylistCurator creates playlists as music provider's API doesn't have facilitiy to dynamically create a playlist
  + Shares playlist via users social media accounts
 
 
@@ -26,13 +26,19 @@ Because the Jamendo music service is populated only by new, unsigned and unpubli
 + Bootstrap 3.1.1
 + Angular Socialshare
 + Angular Notifications
++ Angular Cookies
 + Angular-UI-Bootstrap
++ Mongoose
++ Express.js
++ Node.js
++ Grunt
 
-To get this project up and running, clone it, start your webserver in the playlistcurator folder (where you see the index.html file). Then in your favorite browser, visit :
+To get this project up and running, clone it, start up Mongo (mongod), then from the root of the cloned project, serve it up with Grunt (grunt serve)
+After a short time, your browser should open the login page. If this does not happe, then visit:
 
 localhost:9000/
 
-and you should see the login page. The localhost IP address (127.0.0.1) will also work, however one of the features of Playlst curator uses Google's URL sortening service for sharing out the URL of the playlist you have created. This has proven problematic to this developer when using this - however localhost works fine.
+and you should see the login page. 
 
 ###Data Model Design.
 
