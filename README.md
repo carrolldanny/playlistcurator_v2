@@ -74,9 +74,12 @@ Playing back a list and sharing it on Twitter
 
 ###Extra features
 
-Firebase was used for user accounts and authentication, however since the Jamendo API lacks the functionality to dynamically create playlists - Playlist Curator creates playlists in Firebase also. It uses the users UID to identify the lists associated with them - then it holds some basic playlist info such as create date, genre, title, curator as well as each Jamendo track ID who’s details are then accessed from the Jamendo API.
+Since the Jamendo API lacks the functionality to dynamically create playlists - Playlist Curator creates the via its own API, saving the data in its Mongoose database. It uses the users UID to identify the lists associated with them - then it holds some basic playlist info such as create date, genre, title, curator as well as each Jamendo track ID who’s details are then accessed from the Jamendo API.
 
 Google URL shortener is used to shorten the URL's before they get shared out on Social Media (Only Twitter implemented as I don’t have a Facebook account to test that one, but the implementation is the same - just properties on the link)
+
+This project has also ben deployed to Cloud Platform - Heroku. It is available at : 
+http://desolate-badlands-65813.herokuapp.com/
 
 
 ###Independent learning.
@@ -84,8 +87,9 @@ Google URL shortener is used to shorten the URL's before they get shared out on 
 + ngCookies - I used this to store the uid of the logged in user so their previous playlists can be retrieved easily. It gets destroyed when they logout
 + ngNotify - This is used when a track is added or removed from a playlist - different classes demoting different action as are applied.
 + Angular Social Sharing - For sharing the created playlists with friends.
-+ HTML5 Audio Player - standard feature of HTML5 but few soild for streaming audio files in an instance such as this.
-+ Angular-Confirm - A Confirm modal dialog for AngularJS
++ HTML5 Audio Player - A standard feature of HTML5 but few soild for streaming audio files in an instance such as this.
++ Angular-Confirm - A Confirm modal dialog for AngularJS - useful for user confirmation before deleting items.
++ Heroku - Heroku is a platform as a service (PaaS) that enables developers to build and run applications entirely in the cloud
 
 ###Web API Endpoints
 
