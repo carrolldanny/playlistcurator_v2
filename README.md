@@ -102,7 +102,7 @@ http://desolate-badlands-65813.herokuapp.com/
 | DELETE        | /api/playlists/{playlist_id}                   | Delete a playlist                   | -             |
 | DELETE        | /api/playlists/{playlist_id}/track/{track_id}  | Remove a track from a playlist      | -             |
 | GET           | /api/users/me                                  | Login                               | user details  |
-| POST          | /api/users                                     | Create a user                       | -             |
+| POST          | /api/users                                     | Create a user                       | uid           |
 
 
 [image1]: /images/promotion/ss1.png
