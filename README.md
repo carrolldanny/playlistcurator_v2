@@ -24,14 +24,13 @@ Because the Jamendo music service is populated only by new, unsigned and unpubli
 
 + AngularJS 1.4.5
 + Bootstrap 3.1.1
-+ Firebase
 + Angular Socialshare
 + Angular Notifications
-
++ Angular-UI-Bootstrap
 
 To get this project up and running, clone it, start your webserver in the playlistcurator folder (where you see the index.html file). Then in your favorite browser, visit :
 
-localhost:8080/#/
+localhost:9000/
 
 and you should see the login page. The localhost IP address (127.0.0.1) will also work, however one of the features of Playlst curator uses Google's URL sortening service for sharing out the URL of the playlist you have created. This has proven problematic to this developer when using this - however localhost works fine.
 
@@ -81,7 +80,7 @@ Google URL shortener is used to shorten the URL's before they get shared out on 
 + ngNotify - This is used when a track is added or removed from a playlist - different classes demoting different action as are applied.
 + Angular Social Sharing - For sharing the created playlists with friends.
 + HTML5 Audio Player - standard feature of HTML5 but few soild for streaming audio files in an instance such as this.
-
++ Angular-Confirm - A Confirm modal dialog for AngularJS
 
 [image1]: /images/promotion/ss1.png
 [image2]: /images/promotion/ss2.png
