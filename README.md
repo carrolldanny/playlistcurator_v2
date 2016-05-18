@@ -93,16 +93,16 @@ http://desolate-badlands-65813.herokuapp.com/
 
 ###Web API Endpoints
 
-| Method        | End point                                      | Usage                               | Returns       |
-| ------------- | ---------------------------------------------- | ----------------------------------  | ------------- |
-| GET           | /api/playlists                                 | Get a list of all user's playlists  | playlists     |
-| GET           | /api/playlists/{playlist_id}                   | Get the contents of a playlist      | tracks        |
-| POST          | /api/playlists/                                | Create a playlist                   | playlist      |
-| POST          | /api/playlists/{playlist_id}/tracks            | Add a track to a playlist           | -             |
-| DELETE        | /api/playlists/{playlist_id}                   | Delete a playlist                   | -             |
-| DELETE        | /api/playlists/{playlist_id}/track/{track_id}  | Remove a track from a playlist      | -             |
-| GET           | /api/users/me                                  | Login                               | user details  |
-| POST          | /api/users                                     | Create a user                       | uid           |
+| Method        | End point                                      | Usage                               | Returns                     |
+| ------------- | ---------------------------------------------- | ----------------------------------  | --------------------------  |
+| GET           | /api/playlists                                 | Get a list of all user's playlists  | playlists                   |
+| GET           | /api/playlists/{playlist_id}                   | Get the contents of a playlist      | playlist inc. tracks        |
+| POST          | /api/playlists/                                | Create a playlist                   | playlist                    |
+| POST          | /api/playlists/{playlist_id}/tracks            | Add a track to a playlist           | -                           |
+| DELETE        | /api/playlists/{playlist_id}                   | Delete a playlist                   | -                           |
+| DELETE        | /api/playlists/{playlist_id}/track/{track_id}  | Remove a track from a playlist      | -                           |
+| GET           | /api/users/me                                  | Login                               | user details                |
+| POST          | /api/users                                     | Create a user                       | uid                         |
 
 
 [image1]: /images/promotion/ss1.png
